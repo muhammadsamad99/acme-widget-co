@@ -26,15 +26,19 @@ This is implementation of Sales System(basket pricing system) for Acme Widget Co
 - Used Ruby's built-in test framework (RSpec) for testing
 
 ## How to Run
+1. Install Ruby like with rbenv and set locally:
+   ```bash
+   rbenv install 3.1.2
+   rbenv local 3.1.2
 
-1. Install dependencies (only RSpec needed for testing):
+2. Install dependencies (only RSpec needed for testing):
    ```bash
    gem install rspec
 
-2. #### Run all tests
+3. #### Run all tests
     ```bash
     rspec --require spec_helper spec
 
-3. #### Run specific class tests
+4. #### Run specific class tests
     ```bash
     rspec --require spec_helper spec/basket_spec.rb
