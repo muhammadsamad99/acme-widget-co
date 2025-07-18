@@ -1,4 +1,4 @@
-# Acme Widget Co Basket Pricing Solution
+# Acme Widget Co Sales System
 
 This is implementation of Sales System(basket pricing system) for Acme Widget Co that calculates totals including offers and delivery charges.
 
@@ -31,6 +31,10 @@ This is implementation of Sales System(basket pricing system) for Acme Widget Co
    ```bash
    gem install rspec
 
-#### Run all tests
-```bash
-rspec --require spec_helper spec
+2. #### Run all tests
+    ```bash
+    rspec --require spec_helper spec
+
+3. #### Run specific class tests
+    ```bash
+    rspec --require spec_helper spec/basket_spec.rb
